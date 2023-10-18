@@ -1,0 +1,52 @@
+<html>
+<title>Length Conversion </title>
+
+<link href="converterstyle.css" rel="stylesheet" type="text/css">
+<body>
+	<h1 class = "header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Length Conversion </h1>
+	<div class = "box">
+	<div class = "content">
+<form action = "converter.php" method="post">
+
+<br><div class = "cap"><h2>
+	<br></br>
+	<label for = "metric">Metric: </label>
+	<select name="metric" id = "metric">
+
+        <option value="mm">millimeter</option>
+		<option value="cm">centimeter</option>
+		<option value="dm">decimeter</option>
+		<option value="m">meter</option>
+		<option value="km">kilometer</option>
+		<option value="in">inches</option>
+		<option value="yd">yard</option>
+		<option value="ch">chain</option>
+		<option value="fur">furlong</option>
+		<option value="mile">mile</option>
+	</select>
+
+	<label for = "mconvert">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Convert to:</label>
+	<select name = "mconvert" id = "mconvert">
+        <option value="mm">millimeter</option>
+		<option value="cm">centimeter</option>
+		<option value="dm">decimeter</option>
+		<option value="m">meter</option>
+		<option value="km">kilometer</option>
+		<option value="in">inches</option>
+		<option value="yd">yard</option>
+		<option value="ch">chain</option>
+		<option value="fur">furlong</option>
+		<option value="mile">mile</option>
+	</select>
+	<br>
+	<h2>
+	<div class ="Prompt">Enter a Value: <br>
+	<input type="text" name="num" id = "num"></h2>
+
+	<input class = "fin" type="submit" name = "submit" value = "Convert!">
+	<br></div>
+	</div>
+	</h2>
+</div>
+</div>
+</form>

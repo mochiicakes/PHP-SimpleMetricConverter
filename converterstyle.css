@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+title{
+	text-align: center;
+}
+
+body{
+	background-image: url(sky.jpg);
+	background-position: center;
+	background-size:cover;
+}
+
+.ans{
+	text-align: center;
+	padding-top: 4em;
+}
+
+.header{
+	padding: 1em;
+	margin-left: 10em;
+	font: Footlight MT Light, Arial Black, Times New Roman;
+	color: #000;
+}
+
+.cap{
+	margin-left: 5em;
+}
+
+.box{
+	box-shadow: 5px 5px 5px 5px #470b32;
+	width: 320px;
+	width: 40em;
+	height: 21em;
+	margin-left: 12em;
+	background-color: #d1d1ff;
+}
+
+.prompt{
+	padding-list:8em;
+}
+
+#name{
+	padding-left:3px;
+	width: 15em;
+	height: 2em;
+	font-size: 16;
+}
+
+#metric{
+	font-size: 16
+}
+
+#metricconvert{
+	font-size: 16
+}
+
+.styled {
+	border: 0;
+	line-height: 2.5;
+	margin-left: 17em;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: #ffef2;
+	background-image: linear-gradient(to top left, rgba (0,0,0,.2),
+												   rgba (0,0,0,.2) 30%,
+												   rgba (0,1,0, 5));
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 6),
+	inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover{
+	background-color: #ffef2;
+}
+
+.styled:active{
+	box-shadow: inset -2px -2px 3px rgba(0, 0, 0, .6),
+	inset 2px 2px 3px rgba(255, 255, 255, 6),
+}
